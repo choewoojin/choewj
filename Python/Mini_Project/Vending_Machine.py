@@ -1,3 +1,5 @@
+import time, os, sys
+
 products = ["coke", "pepsi", "fanta", "water", "tea"]
 products_price = {
     "coke" : 1500, 
@@ -6,40 +8,73 @@ products_price = {
     "water" : 800, 
     "tea" : 1000
 }
-print("Please select the product number")
+def typingPrint(text, *args, **kwargs):
+    for character in text:
+        sys.stdout.write(character)
+        sys.stdout.flush()
+        time.sleep(0.05)
+  
+def typingInput(text):
+    for character in text:
+        sys.stdout.write(character)
+        sys.stdout.flush()
+        time.sleep(0.05)
+    value = input()  
+    return value  
+  
+def clear_screen():
+    os.system("cls")
+  
+typingPrint("Please select the product number\n")
 
 def select_product():
-    product_num = int(input("product number :"))
+    product_num = int(typingInput("product number :"))
+    time.sleep(1)
     if product_num > len(products):
-        print("Invalid input. Please select a number again")
+        typingPrint("Invalid input. Please select a number again\n")
         return int(input("product number :"))
     else:
         return products[product_num - 1]
 
 selected_product = select_product()
-print(selected_product,"-", "₩", products_price[selected_product])
-print("Please select a payment method")
+price = products_price[selected_product]
+typingPrint(f"{selected_product} - ₩ {price}\n")
+typingPrint("<select a payment method>\n")
 
 def payment_method():
-    customer_choice = int(input("Please select the number of the payment method you want. 1. Card 2. Cash : "))
+    customer_choice = int(typingInput("Please select the number of the payment method you want. 1. Card 2. Cash : "))
     if customer_choice == 2:
         current_input_amount = 0
-        product_price = int(products_price[selected_product])
+        product_price = int(price)
         while True:
             if current_input_amount < product_price:
-                print("Please insert your cash")
-                input_amount = int(input("₩ "))
+                typingPrint("Please insert your cash\n")
+                input_amount = int(typingInput("₩ "))
                 current_input_amount += input_amount
-                print("₩", current_input_amount, "/", "₩", products_price[selected_product])
+                print(f"₩ {current_input_amount} / ₩ {price}\n")
             else:
-                print(f"The change is ₩{current_input_amount - products_price[selected_product]}")
+                typingPrint(f"The change is ₩{current_input_amount - price}\n")
                 say_goodbye()
                 break
     else:
         say_goodbye()
         
 def say_goodbye():
-    print("The payment has been completed")
-    print("Thank you for your purchase, Goodbye!")
+    typingPrint("The payment has been completed\n")
+    time.sleep(3)
+    typingPrint("Thank you for your purchase, Goodbye!\n")
+    
 
 payment_method()
+
+def return_to_first_screen():
+    typingPrint("This screen will return_to_first_screen in 3..\n")
+    time.sleep(1)
+    typingPrint("2..")
+    time.sleep(1)
+    typingPrint("1..")
+    time.sleep(1)
+ 
+
+return_to_first_screen()
+clear_screen()
