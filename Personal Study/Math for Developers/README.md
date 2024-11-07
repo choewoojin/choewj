@@ -4,9 +4,7 @@
 
 # <div style="text-align:center;"><span style="color: #E5CCFF">개발자를 위한 필수 수학<br>\<기초 수학으로 시작하는 데이터 과학 첫걸음\></span></div>
 
-<p align="center">
-    <img src="./images/001.jpg" alt="개발자를 위한 필수 수학">
-</p>
+![개발자를 위한 필수 수학](../images/000. jpg)
 
 ### 이라는 책의 복습을 위한 노트입니다.
 ### 참고로 책의 내용에 비해 아주 미미한 내용들 뿐이고
