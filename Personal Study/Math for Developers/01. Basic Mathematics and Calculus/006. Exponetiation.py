@@ -12,4 +12,4 @@ b = log(16, 4)
 
 print(b)
 
-# ../images/004. Properties of Exponents and Logarithms.jpg
+# ../images/004_Properties_of_Exponents_and_Logarithms.jpg

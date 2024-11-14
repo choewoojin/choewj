@@ -14,16 +14,16 @@ for i in values:
     
 a = symbols('a')
 f = a + 2
-plot(f) # ../images/001. Function 01.png
+plot(f) # ../images/001_Function_01.png
 
 ############################################
 
 b = symbols('b')
 g = b**2 + 5
-plot(g) # ../images/002. Function 02.png
+plot(g) # ../images/002_Function_02.png
 
 ############################################
 
 c, d = symbols('c d')
 q = 5*c + 2*d
-plot3d(q) # ../images/003. Function 03.png
+plot3d(q) # ../images/003_Function_03.png
