@@ -14,3 +14,6 @@
 
 ## Pyhon
 1. Vending_Machine
+
+## data_analysis
+1. 01_roulette
