@@ -1,0 +1,15 @@
+{
+    "file_name": "exercise.csv",
+    "file_size": "2.67 KB",
+    "columns": {
+        "id": "원번호",
+        "diet": "식단",
+        "pulse": "맥박",
+        "time": "운동시간",
+        "kind": "현재상태"
+    },
+    "created_at": "2025-01-01",
+    "description": "CSV 파일의 메타데이터",
+    "row_count": 90,
+    "source": "Seaborn datasets"
+}
