@@ -1,4 +1,4 @@
-# 카글에서 임의의 데이터셋을 다운로드 후 분석
+# data_analysis 폴더
 
 - 데이터 출처: [Kaggle](https://www.kaggle.com/) | [Seaborn](https://github.com/mwaskom/seaborn-data)
 - 각 폴더 앞부분의 숫자는 분석을 진행한 데이터를 순차적으로 표시 
