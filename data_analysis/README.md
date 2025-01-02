@@ -18,4 +18,6 @@
 
     - `results`: 시각화 자료, 결과를 통한 인사이트 도출등 프로젝트 결과를 전체적으로 포함한 폴더
         - `visualiztions`: 시각화 그래프
+            -`individual_sample_results`: 개별적 통계에 의한 시각화 그래프
+            -`overall_result`: 종합 결과
         - `reports`: 데이터 탐색 결과 요약
