@@ -7,10 +7,14 @@
 ---
 | `다운로드 목록`| `파일` |
 |---|---| 
-| 필수 설치 라이브러리 | [`requirements.txt`](https://raw.githubusercontent.com/username/repository/branch/requirements.txt) |
+| 필수 설치 라이브러리 | [`requirements.txt`](https://raw.githubusercontent.com/choewoojin/choewj/main/requirements.txt) |
 
+---
+---
+---
 
-# pyhon
+![python](https://mblogthumb-phinf.pstatic.net/MjAyMzAyMDdfMjgz/MDAxNjc1NzcxNDA5NzE5.Ph-LECaILGlSABSGzgRVxh9GhpKwwXAnvG3FE4TAoZog.Q_5uUQf_6_Nzi4IHz384cM7Dv_QdUvGioleJRL-V5iQg.PNG.yoonjung450/image.png?type=w966)
+# PYTHON
 1. ### [`mini_project`](https://github.com/choewoojin/choewj/tree/main/Python/Mini_Project)
 
     - #### [`vending_machine`](https://github.com/choewoojin/choewj/blob/main/Python/Mini_Project/Vending_Machine.py)
@@ -25,12 +29,19 @@
     | [`make_json`](https://github.com/choewoojin/choewj/blob/main/Python/useful_py/make_json.py) | 데이터 파일(e.g. csv)의 json파일 생성 |
     | [`parallel_processing`](https://github.com/choewoojin/choewj/blob/main/Python/useful_py/parallel_processing.py) | 병렬처리 프로그램 |
 
-# data_analysis
-
-## [README](https://github.com/choewoojin/choewj/blob/main/data_analysis/README.md)
-
-- ### [`01_exercise`](https://github.com/choewoojin/choewj/tree/main/data_analysis/01_exercise)
+---
+---
+---
 
 
+![data_analysis](https://velog.velcdn.com/images/drudger/post/317c9f77-ca1d-42e5-8319-1126151562f0/image.jpg)
+# DATA_ANALYSIS
 
+- ### [`README`](https://github.com/choewoojin/choewj/blob/main/data_analysis/README.md): 폴더 내 구조 설명
+
+- ### 폴더 리스트
+
+    | 폴더명 | 설명 | 파일 출처 | 파일 다운로드 경로 |
+    | --- | --- | --- | --- |
+    [`01_exercise`](https://github.com/choewoojin/choewj/tree/main/data_analysis/01_exercise) | 운동 방법에 따른 맥박의 변화 분석 | seaborn |[exercise.csv](https://github.com/mwaskom/seaborn-data?tab=readme-ov-file) | . 
 
